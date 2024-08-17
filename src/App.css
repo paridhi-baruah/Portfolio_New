@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+body{
+  font-family: 'Bitter',serif;
+  background: #e8fafa;
+}
 .App {
   text-align: center;
+  transition: background 0.5s;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;

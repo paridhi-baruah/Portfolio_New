@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+nav{
+    margin: 1vw;
+    margin-bottom: 0vw;
+    background: linear-gradient(0deg, #f4ffff 30%, #e4fbfb 100%);
+    position: sticky;
+    top:0.5vw;
+    z-index: 1000;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 4.5vw;
+    font-family: "Radio Canada Big", sans-serif;
+    letter-spacing: 0.2vw;
+}
+.logo-menu{
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+.v-line{
+    height: 2.5vw;
+    width: 0.1vw;
+    background: #246e68;
+}
+.logo-menu img{
+    width: 2.5vw;
+    cursor: pointer;
+
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu-icon
+{
+    width: 5vw;
+}
+.menu-text {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transform-origin: top;
+}
+
+.slide-in {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.slide-out {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.menu, .hire {
+    font-size: 1.5vw;
+    transition: letter-spacing 0.5s;
+    color: #0f4843;
+}
+.hire{
+    text-decoration: none;
+}
+.menu:hover, .hire:hover {
+    letter-spacing: 0.4vw;
+    cursor: pointer;
+}
+.menu img{
+    padding-right: 0.6vw;
+    width: 1vw;
+    height: 0.5vw;
+}
+nav.open {
+    background: #acbfe5cb;
+    color: #13213ccb;
+}
+@media screen and (max-width: 1024px) {
+    nav{
+        margin: 1vw 2.5vw;
+        margin-bottom: 0vw;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .menu, .hire{
+        font-size: 2.5vw;
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    .menu, .hire{
+        font-size: 4vw;
+    }
+    .logo-menu img{
+        width: 5.5vw;
+        height: 4.5vh;
+    }
+    .menu img{
+        width: 3vw;
+        height: 3vw;
+        margin: 0vw 1vw;
+    }
+    
+}
