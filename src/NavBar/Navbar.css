@@ -25,7 +25,7 @@ nav{
     width: 0.1vw;
     background: #246e68;
 }
-.logo-menu img{
+.logo{
     width: 2.5vw;
     cursor: pointer;
 
@@ -65,7 +65,7 @@ nav{
     letter-spacing: 0.4vw;
     cursor: pointer;
 }
-.menu img{
+.menu-icon{
     padding-right: 0.6vw;
     width: 1vw;
     height: 0.5vw;
@@ -81,9 +81,32 @@ nav.open {
     }
     
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
+    .menu, .hire {
+        font-size: 2vw;
+    }
+    
+}
+@media screen and (max-width:571px) {
+    .menu, .hire {
+        font-size: 3vw;
+    }
+    .links{
+        padding-top: 2vw ;
+        padding-bottom: 2vw;
+    }
+    .logo{
+        width: 5vw;
+        height: 7vw;
+    }
+    .menu-icon{
+        width: 2.5vw;
+        height: 1.5vw;
+    }
+}
+@media screen and (max-width: 430px) {
     .menu, .hire{
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
     
 }
@@ -91,11 +114,11 @@ nav.open {
     .menu, .hire{
         font-size: 4vw;
     }
-    .logo-menu img{
+    .logo{
         width: 5.5vw;
         height: 4.5vh;
     }
-    .menu img{
+    .menu-icon{
         width: 3vw;
         height: 3vw;
         margin: 0vw 1vw;

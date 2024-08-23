@@ -13,7 +13,7 @@ const Home = () => {
           Hi, my
           <br />name is <span className="name"style={{fontWeight: 650 }}>Paridhi</span><span className="name" style={{color: "rgb(79, 111, 176)"}}>.</span>
         </div>
-        <div clasname="desc" style={{fontSize: '1.8vw', width: '35vw', paddingTop: '1.5vw',fontSize:'1.8vw'}}>
+        <div className="desc">
           I'm an <span style={{fontWeight: 650, lineHeight: '2'}}>Independent Creative Developer</span> from Guwahati, India.
         </div>
       </div>
