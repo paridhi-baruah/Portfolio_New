@@ -14,7 +14,7 @@ import cepstrum from '../assets/cepstrum.jpg';
 import ec from '../assets/ec.png';
 import techniche from '../assets/techniche.jpg';
 import election from '../assets/election.png'
-import resume from '../assets/Resume.pdf';
+import resume from '../assets/SDE_Paridhi.pdf';
 const About = () => {
     const [expanded, setExpanded] = useState(false);
     const [showAbout, setShowAbout] = useState(false);

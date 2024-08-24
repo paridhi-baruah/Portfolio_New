@@ -148,15 +148,15 @@
       font-size: 8vw;
       color: #181b4f;
       text-align: center;
-      top: 60vh;
-      left: 10%;
+      top: 58vh;
+      left: 8%;
     }
     .desc{
       font-size: 3.5vw;
       width: 85vw;
     }
   }
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 390px) {
     .Home {
       height: 93vh;
     }

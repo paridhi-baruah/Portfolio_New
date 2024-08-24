@@ -105,6 +105,9 @@
     cursor: pointer;
     color: #ffffff;
 }
+.social-links img{
+    width: 2vw;
+}
 @media screen and (max-width: 1024px) {
     .content-container {
         margin: 0vw 2.5vw;
@@ -135,8 +138,11 @@
     height: 89vh;
 }
 .social-links img{
-    width: 2.4vw;
+    width: 3vw;
 } 
+.h-line{
+    width: 70vw;
+}
 }
 @media screen and (max-width: 425px) {
     .content-container {
@@ -154,7 +160,7 @@
     padding: 5vw 0vw;
 }
 .h-line{
-    width: 40vw;
+    width: 80vw;
 }
 .content-container.expanded .h-line {
     width: 15vw;
@@ -163,6 +169,6 @@
     padding-top: 7vw;
 }
 .social-links img{
-    width: 3vw;
+    width: 5.5vw;
 } 
 }

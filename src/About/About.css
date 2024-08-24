@@ -283,6 +283,10 @@
     font-size:1.3vw ;
     font-weight: 500
 }
+.text-box small{
+    font-weight: 500;
+    color: #466c87;  
+}
 @media screen and (max-width: 1132px){
     .teams{
         padding-bottom: 10vw;
@@ -296,16 +300,35 @@
 .about-content{
     height: 95vh;
 }
+.about-title,.skills-title,.teams-title {
+    font-size: 6vw;
 }
-@media screen and (max-width: 727px){
+.about-myself,.text-box h2{
+    font-size: 3vw;
+}
+.about-me,.resume-button button,.text-box p{
+    font-size: 1.8vw;
+}
+.text-box small{
+    font-size: 1.8vw;
+
+}
+.resume-button button,.resume-button img{
+    width: 20vw;
+    height: 5vw;
+}
+.container{
+    margin-bottom:6vw;
+}
+.teams-content{
+    padding-bottom: 10vw;
+}
+.circle,.circle-right{
+    top: 5%;}
+}
+@media screen and (max-width: 780px){
     .teams{
         padding-bottom: 17vw;
-    }
-    .about-me,.text-box{
-        font-size: 1.7vw;
-    }
-    .container{
-        margin: 2vw 0vw;
     }
     .team-logo{
         width: 4vw;
@@ -313,59 +336,98 @@
     .team-logo_ele{
         width: 12vw;
     }
-    .circle,.circle-right{
-        top: 6%;
-    }
     .skills-icons img{
         width: 4.5vw;
     }
+    .about{
+        padding-bottom: 8vw;
+    }
+    .about-title,.skills-title,.teams-title {
+        font-size: 8vw;
+    }
+    .about-myself,.text-box h2{
+        font-size: 3.75vw;
+    }
+    .about-me,.resume-button button,.text-box p{
+        font-size: 2.4vw;
+    }
+    .text-box small{
+        font-size: 2vw;
+    
+    }
+    .resume-button button,.resume-button img{
+        width: 28vw;
+        height: 7vw;
+    }
+    .container{
+        margin-bottom:24vw;
+    }
+    .teams-content{
+        padding-bottom: 10vw;
+    }
+    .circle,.circle-right{
+        top: 3.5%;}
 }
 @media screen and (max-width: 579px){
     .teams{
         padding-bottom: 25vw;
     }
-    .about-me,.text-box,.about-myself{
-        font-size: 2vw;
-    }
-    .container{
-        width: 38vw;
-        height: 19vw;
-        margin: 8vw 0vw;
-    }
-    .circle,.circle-right{
-        top:5%
-    }
     .team-logo{
         width: 5vw;
     }
     .team-logo_ele{
         width: 14vw;
     }
+    .about-title,.skills-title,.teams-title {
+        font-size: 11vw;
+    }
+    .about-h-line.expanded{
+        width: 20vw;
+        height: 0.3vw;
+    }
+    .about-myself{
+        font-size: 5.8vw;
+        line-height: 8.5vw;
+    }
+    .text-box h2{
+        margin-top: 0vw;
+        font-size: 3.25vw;
+    }
+    .text-box p{
+        font-size: 2.25vw;
+    }
+    .about-me,.resume-button button{
+        font-size: 3.25vw;
+    }
+    .text-box small{
+        font-size: 2vw;
+
+    }
+    .resume-button button,.resume-button img{
+        width: 36vw;
+        height: 7vw;
+    }
+    .container{
+        margin-bottom:14vw;
+    }
+    .teams-content{
+        padding-bottom: 1vw;
+    }
+    .circle,.circle-right{
+        top: 5%;}
 }
 @media screen and (max-width: 351px){
-    .teams-title,.about-title,.skills-title{
-        font-size: 8vw;
-    }
     .teams{
         padding-bottom: 42vw;
-    }
-    .about-me,.text-box,.about-myself{
-        font-size: 3vw;
     }
     .text-box{
         padding: 1vw 2vw;
     }
-    .container{
-        margin-bottom: 40vw;
-    }
-    .circle,.circle-right{
-        top:5%
-    }
     .team-logo{
-        width: 5vw;
+        width: 7vw;
     }
     .team-logo_ele{
-        width: 14vw;
+        width: 20vw;
     }
     .teams-content.animate-line::after {
         content: '';
@@ -376,10 +438,6 @@
         left: 100%;
         margin-top: 11.5vw;
         margin-left: -0.1vw;
-    }
-    .resume-button img{
-        width: 34vw;
-        height: 7vw;
     }
     .resume-button button{
         width: 34vw;
@@ -392,4 +450,53 @@
         border:#3F4A83 0.2vw solid;
         border-radius:0.5vw ;
     }
+    .about-title,.skills-title,.teams-title {
+        font-size: 15vw;
+    }
+    .skills-icons img{
+        padding: 1vw 0.5vw;
+        width: 5.5vw;
+    }
+    .about{
+        padding-top: 15vw;
+    }
+    .about-myself{
+        font-size: 7vw;
+        line-height: 10vw;
+    }
+    .text-box h2{
+        margin-top: 0vw;
+        font-size: 5vw;
+    }
+    .text-box p{
+        font-size:3.5vw;
+    }
+    .about-me{
+        padding: 7vw 0vw;
+    }
+    .skills{
+        padding-top: 25vw;
+    }
+    .teams{
+        padding-top: 10vw;
+    }
+    .about-me,.resume-button button{
+        font-size: 4.5vw;
+    }
+    .text-box small{
+        font-size: 2.75vw;
+
+    }
+    .resume-button button,.resume-button img{
+        width: 55vw;
+        height: 9vw;
+    }
+    .container{
+        margin-bottom:60vw;
+    }
+    .teams-content{
+        padding-bottom: 15vw;
+    }
+    .circle,.circle-right{
+        top: 2%;}
 }
