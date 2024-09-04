@@ -4,6 +4,7 @@ import html from '../assets/html.png';
 import css from '../assets/css.png';
 import react from '../assets/react.png';
 import node  from '../assets/node.png';
+import python from '../assets/python.jpeg';
 
 const Projects = () => {
     const [expanded, setExpanded] = useState(false);
@@ -60,6 +61,19 @@ const Projects = () => {
                                 <img src={css} alt="" />
                             </div>
                             <a href="https://github.com/IITG-Cepstrum/Cepstrum-website" style={{fontStyle:'oblique'}} target='_blank'>Github link</a>
+                        </div>
+                    </div>
+                </div> 
+                <div className="pro-textbox">
+                    <div className="pro-container">
+                        <h2> H1N1 and Seasonal Vaccines Prediction</h2>
+                        <p>A predictive model was built to analyze how likely people are to get the H1N1 and seasonal flu vaccines, based on their medical history and views on vaccine risks. Various machine learning methods were used, such as Logistic Regression, Decision Trees, and Random Forest, with the Random Forest model achieving 83% accuracy. This analysis offers insights into vaccination patterns, helping to better understand what factors influence vaccine uptake.</p>
+                        <div className="bottom-sect">
+                        <div className="techstack">
+                                <span>Key Technologies:</span>
+                                <img src={python} alt="" />
+                            </div>
+                            <a href="https://github.com/paridhi-baruah/Yhills" style={{fontStyle:'oblique'}} target='_blank'>Github link</a>
                         </div>
                     </div>
                 </div> 

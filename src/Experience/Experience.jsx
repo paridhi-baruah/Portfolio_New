@@ -27,7 +27,7 @@ const Projects = () => {
                             <img src={flynt} alt="" />
                             <h2>Flynt.Social </h2>
                         </div>
-                        <p>Engineered and maintained full-stack solutions within the brand flow pipeline to optimize brand activation processes and seamlessly integrate platform insights for enhanced campaign analytics. Implemented schema enhancements to track influencer onboarding, utilizing uploaded files for improved data management. Additionally, executed comprehensive testing and integrated the YouTube API, ensuring optimal performance and adherence to platform compliance standards.</p>
+                        <p>A full-stack solution was developed to streamline the brand activation process in the Brand Flow Pipeline, ensuring smooth integration of platform insights for campaign analysis. The Campaign Reporting Dashboard was improved to present platform performance data clearly and to track influencer onboarding, with added support for file uploads to simplify data management. YouTube Data and Analytics API was integrated to fetch and display influencer profiles and YouTube analytics, providing an easy way to visualize important data for campaigns.</p>
                         <div className="bottom-sect">
                             <div>
                                 <span>Role:</span> Software Engineering Intern
